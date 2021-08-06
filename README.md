@@ -2,7 +2,6 @@
 
 ## Track
 
-- [ ] Django
 - [x] Express
 
 ## Task Completed

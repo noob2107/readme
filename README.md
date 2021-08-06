@@ -1,9 +1,5 @@
 ## CSOC week 5 Submission
 
-### Track
-
-- [x] Express
-
 ### Tasks Completed
 
 - [x] **Task 1**: Completed all the basic endpoints
@@ -21,12 +17,6 @@
 	  "username": "string",
 	}
 	```
-	Response Body (Sample):
-	```
-	{
-	  "token":  "string"
-	}
-	```
 	Response Code: `200`
 
 
@@ -38,12 +28,6 @@
 	```
 	{
 	  "username": "string",
-	}
-	```
-	Response Body (Sample):
-	```
-	{
-	  "token":  "string"
 	}
 	```
 	Response Code: `200`

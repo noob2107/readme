@@ -1,4 +1,4 @@
-# CSOC week 4 Submission
+# CSOC week 5 Submission
 
 ## Track
 
@@ -7,28 +7,51 @@
 
 ## Task Completed
 
-### Express  
+- [x] **Task 1**: Completed all the basic endpoints
+- [x] **Task 2**: Implemented collaborator feature
 
-### Stsge 1
+### End points for collaborator
 
-- [x] **Task 1**: getAllBooks
-- [x] **Task 2**: getBook
-- [x] **Task 3**: searchBooks
-- [x] **Task 4:** getLoanedBooks
-- [x] **Extras:** issueBook
+**Auth**
 
-### Stsge 2
-- [x] **Stage 2**
+-   `PUT /todo/:id/add-collaborators/` 
 
-###Stsge 3
-- [x] **Stage 3**
+	Takes the username as input
+  
+	Request Body (Sample):
+	```
+	{
+	  "username": "string",
+	}
+	```
+	Response Body (Sample):
+	```
+	{
+	  "token":  "string"
+	}
+	```
+	Response Code: `200`
 
-### Stsge 4
-- [x] **Stage 4**
 
+-   `PUT /todo/:id/remove-collaborators/` 
+
+	Takes the username as input
+  
+	Request Body (Sample):
+	```
+	{
+	  "username": "string",
+	}
+	```
+	Response Body (Sample):
+	```
+	{
+	  "token":  "string"
+	}
+	```
+	Response Code: `200`
 
 ### Submission
 
-<!-- Add in your repo and apk link or web site link as per track -->
-[Repo](https://github.com/MohitSharma-21/csoc-2021-task4-express)
-[Web Site](https://mohitsharma-21.github.io/tic-tac-toe/)
+[Repo](https://github.com/MohitSharma-21/CSOC-2021-task-5-Express-Apis/tree/mohit)
+[Deployed API ](https://mohitsharma-21.github.io/tic-tac-toe/)

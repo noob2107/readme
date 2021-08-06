@@ -4,14 +4,12 @@
 
 - [x] Express
 
-### Task Completed
+### Tasks Completed
 
 - [x] **Task 1**: Completed all the basic endpoints
 - [x] **Task 2**: Implemented collaborator feature
 
 #### End points for collaborator
-
-**Auth**
 
 -   `PUT /todo/:id/add-collaborators/` 
 

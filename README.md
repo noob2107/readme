@@ -1,15 +1,15 @@
-# CSOC week 5 Submission
+## CSOC week 5 Submission
 
-## Track
+### Track
 
 - [x] Express
 
-## Task Completed
+### Task Completed
 
 - [x] **Task 1**: Completed all the basic endpoints
 - [x] **Task 2**: Implemented collaborator feature
 
-### End points for collaborator
+#### End points for collaborator
 
 **Auth**
 

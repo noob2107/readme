@@ -7,7 +7,7 @@
 
 #### End points for collaborator
 
--   `PUT /todo/:id/add-collaborators/` 
+-  **Add collaborator**: `PUT /todo/:id/add-collaborators/` 
 
 	Takes the username as input
   
@@ -20,7 +20,7 @@
 	Response Code: `200`
 
 
--   `PUT /todo/:id/remove-collaborators/` 
+-  **Remove collaborator**: `PUT /todo/:id/remove-collaborators/` 
 
 	Takes the username as input
   
@@ -28,6 +28,14 @@
 	```
 	{
 	  "username": "string",
+	}
+	```
+	Response Body (Sample):
+	```
+	{
+       	  "collaborators": [{<useranme of collbaorators>}],
+    	  "title": "string",
+    	  "createdBy":"string"
 	}
 	```
 	Response Code: `200`

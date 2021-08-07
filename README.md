@@ -8,16 +8,16 @@
 #### End points for collaborator
 Both the end points takes the username as input and user token as the authorization header with the prefix Token.
 
--  **Add collaborator**: `PATCH /todo/:id/add-collaborators/` 
--  **Remove collaborator**: `PATCH /todo/:id/remove-collaborators/` 
+-  **Add collaborator** : `PATCH /todo/:id/add-collaborators/` 
+-  **Remove collaborator** : `PATCH /todo/:id/remove-collaborators/` 
   
-	Request Body (Sample):
+	Request Body (Sample) :
 	```
 	{
 	  "username": "string",
 	}
 	```
-	Response Body (Sample):
+	Response Body (Sample) :
 	```
 	{
 	  "collaborators": [{<useranme of collbaorators>}],

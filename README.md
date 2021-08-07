@@ -17,6 +17,14 @@
 	  "username": "string",
 	}
 	```
+	Response Body (Sample):
+	```
+	{
+	  "collaborators": [{<useranme of collbaorators>}],
+	  "title": "string",
+	  "createdBy":"string"
+	}
+	```
 	Response Code: `200`
 
 

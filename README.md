@@ -6,8 +6,10 @@
 - [x] **Task 2**: Implemented collaborator feature
 
 #### End points for collaborator
+Both the end points take user token as the authorization header with the prefix Token and User id in the request body.
 
 -  **Add collaborator**: `PUT /todo/:id/add-collaborators/` 
+-  **Remove collaborator**: `PUT /todo/:id/remove-collaborators/` 
 
 	Takes the username as input
   

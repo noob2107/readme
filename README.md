@@ -2,14 +2,14 @@
 
 ### Tasks Completed
 
-- [x] **Task 1**: Completed all the basic endpoints
-- [x] **Task 2**: Implemented collaborator feature
+- [x] **Task 1**: Complete all the basic endpoints
+- [x] **Task 2**: Implement collaborator feature
 
 #### End points for collaborator
 Both the end points takes the username as input and user token as the authorization header with the prefix Token.
 
--  **Add collaborator**: `PUT /todo/:id/add-collaborators/` 
--  **Remove collaborator**: `PUT /todo/:id/remove-collaborators/` 
+-  **Add collaborator**: `PATCH /todo/:id/add-collaborators/` 
+-  **Remove collaborator**: `PATCH /todo/:id/remove-collaborators/` 
   
 	Request Body (Sample):
 	```
@@ -30,4 +30,3 @@ Both the end points takes the username as input and user token as the authorizat
 ### Submission
 
 [Repo](https://github.com/MohitSharma-21/CSOC-2021-task-5-Express-Apis/tree/mohit)
-[Deployed API ](https://mohitsharma-21.github.io/tic-tac-toe/)

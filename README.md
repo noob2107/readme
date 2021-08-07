@@ -33,9 +33,9 @@
 	Response Body (Sample):
 	```
 	{
-       	  "collaborators": [{<useranme of collbaorators>}],
-    	  "title": "string",
-    	  "createdBy":"string"
+       	 "collaborators": [{<useranme of collbaorators>}],
+    	 "title": "string",
+    	 "createdBy":"string"
 	}
 	```
 	Response Code: `200`
